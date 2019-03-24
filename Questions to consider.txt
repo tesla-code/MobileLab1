@@ -1,0 +1,33 @@
+Questions to consider
+
+Why do we represent the account balance as Integer? EURO has cents, and therefore it is a float with two decimal places,
+so why it is a bad idea to represent it as float for example?
+
+Floats lead to inaccurate calculations, witch could lead to the loss or gain of money inn the system
+witch would be a disaster for the system.
+
+
+How will you convert back-and-forth from Integer to a currency that has two decimal places in the UI for the user?
+
+You can use mod 100, and simply have the whole calulation logic be based on the last decmial places in the number,
+beeing the number of cents.
+
+
+How will you represent the Transactions? Should it be a struct? Or class?
+
+I made a class of the transactions, since I dont think java has structs built inn.
+
+
+How will you represent the Recipients?
+
+Array of String names, this could aslo be an arraylist
+
+
+How will the Activities communicate data between themselves?
+
+Using Intents, and starting activites for results.
+
+
+Who will be responsible for actually making the transfer: MainActivity or TransferActivity? Why?
+
+For my project the main acitivy is responsible for the actual transfer
