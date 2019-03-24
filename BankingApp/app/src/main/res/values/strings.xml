@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Banking App</string>
+    <string name="textfield_eur">Balance [EUR]</string>
+    <string name="lbl_balance">100</string>
+    <string name="btn_transactions">Transactions</string>
+    <string name="btn_transfer">Transfer</string>
+    <string name="Recipient">Recipient</string>
+    <string name="transfer_euro">Amount [EUR]</string>
+    <string name="amount_default"></string>
+
+</resources>
